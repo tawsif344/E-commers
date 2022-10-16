@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+/*
+
+font-family: 'Poppins', sans-serif;
+
+
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+p{
+    color: rgb(113, 120, 126);
+}
+img{
+    width: 100%;
+}
+.hot_gajat{
+    margin: 30px 0;
+}
+.item_center{
+    justify-content: center;
+    align-items: center ;
+}
+.hot_menu ul li{
+    padding: 10px 15px ;
+    margin: 0 20px;
+}
+.hot_menu ul li a{
+    color: dimgray;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .3s;
+}
+.hot_menu ul li a:hover{
+    color: rgb(80, 80, 80);
+}
+/*-=-=-=-=-Top-menu-ends*/
+.carasoles_banners{
+    margin: 30px 0;
+}
+.carosoles_text {
+    margin: 150px 0;
+    
+    display: inline-block;
+}
+.carosoles_text p{
+    margin-top: 20px;
+    line-height: 25px;
+}
+/*-=-=-=Phone=-==Section*/
+.phone-section-area{
+    margin: 80px 0;
+}
+.smart_phone_title{
+    margin: 30px 0;
+}
+.smart_phone_title{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.smart_phone_title h4, h5{
+    font-weight: 600;
+}
+.smart_phone_title h5{
+    color: #FFA20F;
+}
+.img_smartphone_section{
+    text-align: center;
+    width: auto;
+    height: 460px;
+}
+.img_smartphone_section img{
+    width: 250px;
+}
+.img_smartphone_section h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.img_smartphone_section p{
+    color: #34495e;
+    font-size: 13px;
+    line-height: 25px;
+}
+.img_smartphone_section .price_phone{
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.img_smartphone_section .phone_buy_button{
+    background-color: black;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 3px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: .3s;
+}
+.img_smartphone_section .phone_buy_button:hover{
+    background-color: #ffffff;
+    color: black;
+}
+/*-=-=-Catahori-Section==-=-*/
+.catagori_part{
+    margin: 10px 0;
+}
+.catagoris_titles_top{
+    text-align: center;
+    letter-spacing: 5px;
+}
+.cattttt{
+    margin-top: 50px;
+}
+.box_bordr{
+    width: 140px;
+    height: 10px;
+    border-radius: 5px;
+    background: linear-gradient(to right, #ffd362  , #ff8809);
+    margin: 0 auto;
+}
+.cat_gori img{
+    width: 150px;
+}
+.st_catat_gori{
+    width: 150px;
+}
+.line_cat_img{
+    width: 150px;
+    float: right;
+}
+.line_cat_img img{
+    margin: 30px 0;
+}
+.reltopoi{
+    position: relative;
+}
+.fast_catagor{
+    width: 250px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 10%;
+
+}
+.fast_catagor span{
+    display: inline-block;
+}
